@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Uh-oh...</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #e35b5b;
+            text-align: center;
+        }
+        .frame {
+            border: 5px solid #a10202;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #edbbbb;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #a10202;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #a10202;
+        }
+        </style>
+</head>
+<body>
+    <div class="frame">
+        <h2>Wait a minute...</h2>
+        <p>You're not Calvin!</p>
+        <img src="image/angry-cat.gif" width="300px" height="auto"/>
+    </div>
+    <button onclick="location.href='index.html'">Go back!</button>
+</body>
+</html>
